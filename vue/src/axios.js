@@ -5,6 +5,12 @@ const getAPI = axios.create({
     timeout: 1000,
 })
 
+const getAPI2 = axios.create({
+    baseURL: 'https://cat-fact.herokuapp.com',
+    timeout: 1000,
+})
+
 export {
-    getAPI
+    getAPI,
+    getAPI2,
 }
